@@ -8,3 +8,5 @@ polymorphism, and abstract classes. It also shows how to implement a GUI and reg
 Ultimately this project facilitated the learning of how to design and develop a Java application from the ground up.
 
 All images were drawn by me.
+
+![Example](data/Example.png)
