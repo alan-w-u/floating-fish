@@ -9,4 +9,4 @@ Ultimately this project facilitated the learning of how to design and develop a 
 
 All images were drawn by me.
 
-![Example](data/Example.png)
+![image](data/example.png)
