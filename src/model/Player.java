@@ -11,7 +11,7 @@ public class Player extends Entity {
     public Player(int x, int y, int width, int height) {
         super(x, y, width, height);
         this.falling = true;
-        fish = Toolkit.getDefaultToolkit().getImage("data/Fish.png")
+        fish = Toolkit.getDefaultToolkit().getImage("data/fish.png")
                 .getScaledInstance(Game.PLAYER_WIDTH, Game.PLAYER_HEIGHT, Image.SCALE_SMOOTH);
     }
 

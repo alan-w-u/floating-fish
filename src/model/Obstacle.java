@@ -11,7 +11,7 @@ public class Obstacle extends Entity {
     public Obstacle(int x, int y, int width, int height, double speed) {
         super(x, y, width, height);
         this.speed = speed;
-        crate = Toolkit.getDefaultToolkit().getImage("data/Crate.png")
+        crate = Toolkit.getDefaultToolkit().getImage("data/crate.png")
                 .getScaledInstance(width, height, Image.SCALE_SMOOTH);
     }
 

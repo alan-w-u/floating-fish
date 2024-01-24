@@ -24,7 +24,7 @@ public class GamePanel extends JPanel {
     public GamePanel(Game game) {
         this.game = game;
         //        getVideo();
-        background = Toolkit.getDefaultToolkit().getImage("data/Background.png")
+        background = Toolkit.getDefaultToolkit().getImage("data/background.png")
                 .getScaledInstance(GUI.WIDTH / 100 * 180, GUI.HEIGHT / 100 * 120, Image.SCALE_DEFAULT);
         setPreferredSize(new Dimension(GUI.WIDTH, GUI.HEIGHT));
     }
@@ -56,7 +56,7 @@ public class GamePanel extends JPanel {
 //    private void getVideo(){
 //        final JFXPanel VFXPanel = new JFXPanel();
 //
-//        File video_source = new File("data/Background Video.mp4");
+//        File video_source = new File("data/background-video.mp4");
 //        Media m = new Media(video_source.toURI().toString());
 //        MediaPlayer player = new MediaPlayer(m);
 //        MediaView viewer = new MediaView(player);
